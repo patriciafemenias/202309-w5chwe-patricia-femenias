@@ -6,7 +6,9 @@
   "scripts": {
     "prepare": "husky install",
     "start": "node .",
-    "start:dev": "node --watch ."
+    "start:dev": "node --watch .",
+    "test": "jest",
+    "test:dev": "jest --watchAll"
   },
   "keywords": [],
   "author": "",
